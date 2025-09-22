@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-light-dark {
+    background-color: #2B3035;
+}
+
+.container {
+    flex: 1;
+}
