@@ -1,9 +1,11 @@
 import React from 'react'
 import Button from './Button'
 
+
 const Home = () => {
   return (
     <>
+        
         <div className='container'>
             <div className='p-5 text-center bg-light-dark rounded'>
                 <h1>Stock Prediction Portal</h1>
@@ -11,6 +13,7 @@ const Home = () => {
                 <Button text='Login' style='btn-info'/>
             </div>
         </div>
+        
     </>
   )
 }
